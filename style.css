@@ -33,7 +33,19 @@ nav ul li {
 	padding: 0 8px;
 }
 .container {
-	min-height: 75vh;
+	min-height: 70vh;
+	background-image: url(./bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: black;
+	color: white;
+	font-family: "Varela Round", sans-serif;
+	display: flex;
+	margin: 23px auto;
+	width: 70%;
+	border-radius: 12px;
+	padding: 34px;
 }
 .bottom {
 	position: sticky;
