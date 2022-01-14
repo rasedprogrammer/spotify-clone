@@ -39,10 +39,18 @@ nav ul li {
 	position: sticky;
 	height: 100px;
 	background-color: black;
+	color: white;
 	bottom: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+}
+.icons {
+	margin-top: 15px;
+}
+.icons i {
+	cursor: pointer;
 }
 #myProgressBar {
 	width: 80vw;
